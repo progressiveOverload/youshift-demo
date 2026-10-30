@@ -1177,6 +1177,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "playwright" },
     { name = "pydantic" },
+    { name = "requests" },
     { name = "streamlit" },
 ]
 
@@ -1184,5 +1185,6 @@ dependencies = [
 requires-dist = [
     { name = "playwright", specifier = ">=1.64.1" },
     { name = "pydantic", specifier = ">=2.14.2" },
+    { name = "requests", specifier = ">=2.34.2" },
     { name = "streamlit", specifier = ">=1.66.1" },
 ]
