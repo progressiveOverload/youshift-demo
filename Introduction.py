@@ -1,4 +1,3 @@
-import playwright as pr  # noqa: F401
 import streamlit as st
 
 if "show_video" not in st.session_state:

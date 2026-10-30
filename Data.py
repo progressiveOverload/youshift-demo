@@ -14,7 +14,9 @@ st.markdown(
 Hey Jota. I was going through the NPPES NPI Registry while chatting with Claude. 
 While I was going through the data, I've find out some orgs have multiple addresses, some even in multiple states.
 
-I thought this could be a signal for a healthcare organization that is scaled beyond their geography. Although I'm an outsider to the industry and practice, not sure if that's the reality for all of the cases.
+I thought this could be an important signal, prospects that are scaled beyond their geography.
+
+Also case might be a complete miss.
 """
 )
 st.divider()
@@ -33,7 +35,7 @@ Workforce scheduling for managers, shift swaps between clinicians and financial 
 st.divider()
 
 st.header("To-do list")
-st.image(image="images/todo.png")
+st.image(image="images/todo-data.png")
 
 st.divider()
 
