@@ -40,8 +40,3 @@ st.header("Okay, let's build someting Youshift wants")
 st.image(
     image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fih1.redbubble.net%2Fimage.5448843221.7506%2Fbg%2Cf8f8f8-flat%2C750x%2C075%2Cf-pad%2C750x1000%2Cf8f8f8.u1.jpg&f=1&nofb=1&ipt=3cee81f7203a9bcd06f61cbe2e073783e097b0c292e0e1d3d3b934d5a5d4ee32&ipo=images"
 )
-
-
-pg = st.navigation(
-    [st.Page("Introduction.py"), st.Page("Data.py"), st.Page("Business.py")]
-)
